@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+    font-family: 'Open Sans', sans-serif;
+}
+#icon{
+    font-size: 20px;
+}
+img{
+    width: 60.6 px;
+    height: 16.88 px;
+    vertical-align: middle;
+}
