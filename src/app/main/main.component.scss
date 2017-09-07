@@ -1,9 +1,7 @@
 p{
     text-align: center;
 }
-.abc{
-    border-style: solid;
-}
+
 .centerClass{
     align-content: center;
 }
@@ -14,4 +12,45 @@ p{
     background-image: none;
     background-color: #F1F1F1;
     border-color: #FAFAFA;
+}
+.btn-type{
+    img{
+        width:18px;
+        height:14px;
+    }
+    border-style: none;
+    margin: 10px;
+    background-image: none;
+    background-color: transparent;
+    border-color:none;
+}
+
+.left{
+    text-align: left;
+}
+.table-striped,th{
+    text-align: center;
+}
+td{
+    color: #8C8C8C;
+}
+.space{
+    margin-top: 60px;
+    
+}
+.col-md-6{
+    padding: 0%;
+}
+.right{
+    padding-left:380px;
+}
+.leftinput{
+    width: 30%;
+}
+.col-md-3{
+    padding-left: 15px;
+    margin-right: -12px; 
+}   
+.dateinput2{
+    padding-left: 0px;
 }

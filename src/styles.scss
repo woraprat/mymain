@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html,body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 #icon{
     font-size: 20px;
@@ -9,4 +9,10 @@ img{
     width: 60.6 px;
     height: 16.88 px;
     vertical-align: middle;
+}
+input{
+    
+    border-style: 1px solid #D5D5D5 ;
+    width: 144px;
+    height: 36px;
 }
