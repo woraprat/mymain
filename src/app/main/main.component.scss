@@ -40,25 +40,55 @@ td{
 }
 .col-md-6{
     padding: 0%;
+    margin-top: 50px;
 }
 .right{
-    padding-left:380px;
+    padding-left:251px;
+    margin-top: 32px;
+    color: #8C8C8C;
 }
 .leftinput{
     width: 30%;
+
 }
 .col-md-3{
-    padding-left: 15px;
-    margin-right: -12px; 
+    padding-left: 0px;
+    margin-right: -3px; 
 }   
 .dateinput2{
     padding-left: 0px;
 }
-#btn:hover, #btn:active{
+.btn-default:hover, .btn-default:active{
+    p{
+        color: #5EA7DC;
+    }
+    border-color: #5EA8DC;
+}
+#type:hover, #type:active{
+    color:#5EA8DC;
+    border: none; 
+}
+span{
+    color: #5FBE75;
+}
+#btn1{
     p{
         color: #5EA8DC;
     }
+        border-color: #5EA7DC;
+}
+.to{
+    top:7px;
+    padding-left:0px;
+    margin-right:-11px;
+}
+.but{
+    margin-top:25px;
+    p{
+        color: #8C8C8C;
+    }
    
-    
-    border-color: #5EA8DC;
+}
+.btn-default{
+    margin-right: 15px;
 }

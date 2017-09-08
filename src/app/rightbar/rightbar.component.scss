@@ -1,6 +1,7 @@
 p.mybank{
     font-size: 16px;
     font-weight: 600px;
+    margin-top: 25px;
 }
 #visa{
     width: 43.05px;
@@ -30,8 +31,19 @@ input{
     width: 60px;
     height: 30px;
     background-color: #D5D5D5;
+    vertical-align: middle
 }
 #picnation{
     margin-left: -138px;
    
+}
+.col-md-2{
+    border-left:1px solid #F1F1F1;
+    height: 858px
+
+}
+#td1,#td2{
+    text-align: center;
+    vertical-align: middle;
+    
 }
