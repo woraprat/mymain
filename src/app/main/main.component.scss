@@ -33,6 +33,7 @@ p{
 }
 td{
     color: #8C8C8C;
+    
 }
 .space{
     margin-top: 60px;
@@ -41,11 +42,20 @@ td{
 .col-md-6{
     padding: 0%;
     margin-top: 50px;
+    input,select{
+        padding-left: 5px;
+    }
 }
 .right{
-    padding-left:251px;
+    padding-left:280px;
     margin-top: 32px;
     color: #8C8C8C;
+    button{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 .leftinput{
     width: 30%;
@@ -91,4 +101,18 @@ span{
 }
 .btn-default{
     margin-right: 15px;
+}
+
+tbody{
+    td{
+        border-top:none;
+    } 
+}
+input,select{
+    border: 1px solid #D5D5D5;
+    border-radius: 3px
+}
+.table>thead>tr>th {
+    border-top: 1px solid #F1F1F1;
+    border-bottom: none;
 }
