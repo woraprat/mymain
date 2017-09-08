@@ -3,15 +3,6 @@ p.mybank{
     font-weight: 600px;
     margin-top: 25px;
 }
-#visa{
-    width: 43.05px;
-    height: 14px;
-   
-}
-#master{
-    width: 25.77px;
-    height: 20;
-}
 .col-md-2{
     padding-bottom: 0%;
 }
@@ -34,19 +25,17 @@ input{
     background-color: #D5D5D5;
     vertical-align: middle
 }
-#picnation{
-    margin-left: -138px;
-   
-}
 .col-md-2{
     border-left:1px solid #F1F1F1;
     height: 858px
 
 }
-#td1,#td2{
-    text-align: center;
-    vertical-align: middle;
-    
+tbody{
+    td{
+        text-align: center;
+        vertical-align: middle;    
+    }
+  
 }
 select{
     color: #8C8C8C;
