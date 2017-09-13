@@ -22,4 +22,15 @@ describe('MainComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+  
+  it('should be creted ngOnInit', ()=>{
+    expect(component.ngOnInit).toBeTruthy();
+  });
+
+  it('should be creted Onclick', ()=>{
+    expect(component.Onclick).toBeTruthy();
+  });
+
+
+
 });

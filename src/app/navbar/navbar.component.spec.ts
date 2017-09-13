@@ -1,6 +1,10 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
+import { DebugElement } from '@angular/core';
+
 
 import { NavbarComponent } from './navbar.component';
+
 
 describe('NavbarComponent', () => {
   let component: NavbarComponent;
@@ -19,7 +23,12 @@ describe('NavbarComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('should be created ', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should be created ngOnInit', () => {
+    expect(component.ngOnInit).toBeTruthy();
+  });
+
 });

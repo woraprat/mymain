@@ -10,6 +10,7 @@ export class RightbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
